@@ -1,0 +1,66 @@
+.main_SF {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px; /* Same as the width of the sidebar */
+    margin-top: 70px;
+    padding-left: 50px;
+    padding-top: 40px;
+    
+}
+.contenedor-firmar{
+    width: 97%;
+    height: 97%;
+    padding: 10px;
+    border: solid;
+    border-color:#752909;
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+  }
+  .descripcion{
+    display: inline-block;
+    background-color: gray;
+    color:#fff;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .contenedor-doc{
+    border: solid;
+    background-color: rgb(226, 223, 223);
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .titulo {
+    display: inline-block;
+    background-color: #ccbd8a;
+    color:#fff;
+    font-weight: bold;
+    font-size: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .subir-firel{
+    background-color: #ccbd8a;
+    color:#fff;
+    width: 200px;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 10px;
+    border-radius: 10px;
+  }

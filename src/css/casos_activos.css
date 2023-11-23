@@ -1,0 +1,66 @@
+.main_CA {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px; /* Same as the width of the sidebar */
+    margin-top: 70px;
+    padding-left: 50px;
+    padding-top: 40px;
+    
+}
+
+.table_CA {
+    border: 1px solid #e0d4af;
+    border-collapse: collapse;
+    width: 98%;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.table_CA th, .table_CA td {
+    padding: 15px;
+    
+}
+
+.tabtable_CA td {
+    text-align: left;
+    
+}
+
+.table_CA th {
+    background-color: #e0d4af;
+    text-align: center;
+    
+    
+}
+
+.box_big_CA{
+    /* color:#000000; */
+    display: inline-flex;
+    align-items: center;
+    padding-left: 40%;
+    padding-right: 40%;
+    background-color: #b8a478;
+    color: #ffffff;
+    border: 1px solid #b8a478;
+    border-radius: 20px;
+    height: 45px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right:25px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.box_big_CA img{
+    margin-left: 20px;
+    height: 25px;
+}
+
+.botn_CA {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  

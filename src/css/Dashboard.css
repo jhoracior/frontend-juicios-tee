@@ -1,0 +1,80 @@
+.topbar {
+    position: fixed;
+    left: 220px;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    background-color: #ccbd8a;
+    padding: 20px;
+    padding-left: 40px;
+    color: #ffffff;
+    font-size: 32px;
+    z-index: 0;
+    text-align: center;
+
+}
+
+.topbar a {
+    position: relative;
+    padding: 10px;
+    margin-right: 20px;
+    float: right;
+    color:#fff;
+}
+
+.topbar Link{
+    text-decoration: none;
+}
+
+.topbar a:hover {
+    background-color:#b8a478;
+    border-radius: 10px;
+}
+
+.topbar img {
+    vertical-align: center;
+    display: inline-block;
+    position: fixed;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.sidebar {
+    height: 100vh;
+    padding: 20px;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to bottom, #ccbd8a, #ccbd8a, #fff); /* Degradado dorado a blanco */
+    color: #fff;
+    width: 200px;
+    position: fixed;
+    font-size: 18px;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 90px;
+}
+
+.sidebar li {
+    padding: 0;
+    margin: 25px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: -25px;
+}
+
+.sidebar a:hover {
+    background-color: #fff;
+    color: #ccbd8a;
+
+}
